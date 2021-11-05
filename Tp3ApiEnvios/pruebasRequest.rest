@@ -1,0 +1,14 @@
+###
+POST http://localhost:3000/envios
+Content-Type: application/json
+
+{
+    "destino": "Santa Fe",
+    "email": "carArias@hotmail.com.ar"
+}
+###
+GET http://localhost:3000/envios/pendientes
+
+###
+PUT http://localhost:3000/envios/{idEnvio}/entregado
+
